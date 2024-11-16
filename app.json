@@ -15,7 +15,7 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": false,
+            "required": true ,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
@@ -46,17 +46,17 @@
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
+            "value":"on"
         },
         "BOT_NAME": {
-            "description": "Name of AI chatbot",
+            "description": "𝓬𝓱𝓾𝓴𝔀𝓾𝓮𝓫𝓾𝓴𝓪 𝓶𝓭 𝓫𝓸𝓽",
             "required": true,
             "value":"Raganork"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
+            "value":"𝓬𝓱𝓾𝓴𝔀𝓾𝓮𝓫𝓾𝓴𝓪 𝓶𝓮 𝓫𝓸𝓽,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
